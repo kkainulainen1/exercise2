@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'colors;' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.3
+4 verbose install initial load of C:\Users\d208.CAMPUS\Desktop\exercise_unit2_STARTER\package.json
+5 warn package.json exercise_unit2@1.0.0 No description
+6 warn package.json exercise_unit2@1.0.0 No repository field.
+7 warn package.json exercise_unit2@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from C:\Users\d208.CAMPUS\Desktop\exercise_unit2_STARTER\node_modules\colors\package.json
+9 verbose readDependencies loading dependencies from C:\Users\d208.CAMPUS\Desktop\exercise_unit2_STARTER\package.json
+10 silly cache add args [ 'colors;', null ]
+11 verbose cache add spec colors;
+12 silly cache add parsed spec Result {
+12 silly cache add   raw: 'colors;',
+12 silly cache add   scope: null,
+12 silly cache add   name: null,
+12 silly cache add   rawSpec: 'colors;',
+12 silly cache add   spec: 'C:\\Users\\d208.CAMPUS\\Desktop\\exercise_unit2_STARTER\\colors;',
+12 silly cache add   type: 'local' }
+13 error addLocal Could not install C:\Users\d208.CAMPUS\Desktop\exercise_unit2_STARTER\colors;
+14 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\d208.CAMPUS\Desktop\exercise_unit2_STARTER\colors;'
+14 verbose stack     at Error (native)
+15 verbose cwd C:\Users\d208.CAMPUS\Desktop\exercise_unit2_STARTER
+16 error Windows_NT 6.1.7601
+17 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "colors;"
+18 error node v4.2.3
+19 error npm  v2.14.7
+20 error path C:\Users\d208.CAMPUS\Desktop\exercise_unit2_STARTER\colors;
+21 error code ENOENT
+22 error errno -4058
+23 error syscall open
+24 error enoent ENOENT: no such file or directory, open 'C:\Users\d208.CAMPUS\Desktop\exercise_unit2_STARTER\colors;'
+24 error enoent This is most likely not a problem with npm itself
+24 error enoent and is related to npm not being able to find a file.
+25 verbose exit [ -4058, true ]
